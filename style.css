@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400');
+
+body {
+    background-color: #840f0f;
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(rgba(132,15,15,0.85),rgba(132,15,15,0.85)), url('emanuelSchool.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    
+    font-weight: 300;
+
+    
+}
+
+#choose2 {
+    margin-top: 8vh;
+    display: flex;
+	justify-content: center;
+}
+
+#choose {
+    border: 10px solid #840f0f;
+    
+    width: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2em;
+
+    
+    
+    
+}
+
+
+#send {
+	font-size: 2em;
+    background-color: white;
+    margin-top: 0.3em;
+    transition: all, 0.5s;
+}
+
+#send:hover {
+	color: red;
+    background-color: #FFFFFF;
+}
+
+#classify {
+	margin-bottom: 1em;
+}
